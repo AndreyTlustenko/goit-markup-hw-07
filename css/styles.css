@@ -345,14 +345,16 @@
     }
     .list-head:hover,
     .list-head:focus {fill:currentColor;
-       
     }
+    
+    .list-head:not(:last-child) {margin-right: 50px; padding: 0; display: flex;}
+
     .social {display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 16px; 
-        
+        margin-top: 16px;   
     }
+
     .list .heder-icon {margin-right: 10px;}
    
    
@@ -384,7 +386,7 @@
     .head-group {display: flex;  margin-left: auto; padding: 0; }
     
     
-    .list-head:not(:last-child) {margin-right: 50px; padding: 0; display: flex;}
+    
    
     .header-list { display: flex; padding: 0; 
         text-decoration: none; color: var(--title-color);padding-top: 32px; padding-bottom: 32px;
@@ -399,11 +401,21 @@
     
     .header .logo {color: var(--accent-color); display: block; padding-top: 32px; padding-bottom: 32px;
     }
-    .list-botton {width: var(--header-width); 
+
+    
+
+    .botton-nav { display: flex; }
+
+    .botton-nav__list {width: var(--header-width); 
         display: flex; ;
         justify-content: center;
         margin-bottom: 35px;
-    }
+    } 
+
+    .botton-nav__item:first-child {margin-left: 0px; }
+    
+    .botton-nav__item { margin-left: 8px; }
+
     .header a:hover,
     .header a:focus { color: var(--accent-color);
 
@@ -503,13 +515,6 @@
         
      }
 
-    .botton-nav { display: flex; }
-    
-    .botton-item:first-child {margin-left: 0px; }
-    
-    .botton-item { margin-left: 8px;  
-                 }
-    
     .card-list {
         display: flex;
         flex-wrap: wrap;
