@@ -7,15 +7,14 @@
     margin-top: 0;
     }
 
-.works-list {display: flex;}
-
-.works-list__item {display: inline-block; 
+.works-list {display: flex;
+&__item {display: inline-block; 
    }
-.works-list__item:not(:last-child) {margin-right: 30px;}
+&__item:not(:last-child) {margin-right: 30px;}
 
-.works-list__foto {position: relative;}
+&__foto {position: relative;}
 
-.works-list__describtion {position: absolute;
+&__describtion {position: absolute;
     bottom: 0;
     
     padding: 27px 81px;
@@ -34,3 +33,6 @@
     background: rgba(47, 48, 58, 0.8);
     
     }
+
+}
+

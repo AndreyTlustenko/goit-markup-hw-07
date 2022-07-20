@@ -22,21 +22,21 @@
              <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>
         <nav >
         <ul class="head-nav">
-            <li class="list-head" ><a class="curent-studio" href="./index.html">Студия</a>
+            <li class="head-nav-list__head" ><a class="curent-studio" href="./index.html">Студия</a>
                
             </li>
-            <li class="list-head"><a class="header-list" href="./portfolio.html">Портфолио</a></li>
-            <li class="list-head"><a class="header-list" href="">Контакты</a></li>
+            <li class="head-nav-list__head"><a class="header-list" href="./portfolio.html">Портфолио</a></li>
+            <li class="head-nav-list__head"><a class="header-list" href="">Контакты</a></li>
         </ul>
         </nav>
         <div class="head-group"> 
         <ul class="head-group">
-        <li class="list-head">
+        <li class="head-nav-list__head">
             <a class="list" href="mailto:info@devstudio.com"><svg class="heder-icon" width="16" height="12">
             <use href="./images/icons.svg#icon-mail"></use>
             </svg>info@devstudio.com</a>
         </li>
-        <li class="list-head">
+        <li class="head-nav-list__head">
             <a class="list" href="tel:+380961111111"><svg class="heder-icon" width="10" height="16">
             <use  href="./images/icons.svg#icon-pfone"></use>
             </svg>+38 096 111 11 11</a>
@@ -48,7 +48,7 @@
          
  <main>
     
-<section class="hero overlay">
+<section class="hero-overlay">
 <div class="container">
     <h1 class="hero-title">Эффективные решения<br> для вашего бизнеса</h1>
 
@@ -116,42 +116,42 @@
 <section class="section-studia">
 <div class="container">
    <h2 hidden>Студия</h2>
-<ul class="about">
-    <li class="box-list" >
-        <div class="box-about"><a class="link">
-         <svg class="box-icon" width="70" height="70" aria-label="antenna">
+<ul class="studia">
+    <li class="studia-list" >
+        <div class="studia-list__item"><a class="link">
+         <svg class="studia-list__icon" width="70" height="70" aria-label="antenna">
          <use href="./images/icons.svg#icon-antenna"></use>
         </svg></a>   
         </div>
-        <h3 class="h3-title">Внимание к деталям</h3> 
-        <p class="h3-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+        <h3 class="studia-list__title">Внимание к деталям</h3> 
+        <p class="studia-list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
     </li>
-    <li class="box-list" >
-        <div class="box-about"><a class="link">
-            <svg class="box-icon" width="70" height="70" aria-label="clock">
+    <li class="studia-list" >
+        <div class="studia-list__item"><a class="link">
+            <svg class="studia-list__icon" width="70" height="70" aria-label="clock">
             <use href="./images/icons.svg#icon-clock"></use>
         </svg></a>
     </div>
-        <h3 class="h3-title">Пунктуальность</h3>
-        <p class="h3-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+        <h3 class="studia-list__title">Пунктуальность</h3>
+        <p class="studia-list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
         </li>
-    <li class="box-list" >
-        <div class="box-about"><a class="link">
-        <svg class="box-icon" width="70" height="70" aria-label="diagram">
+    <li class="studia-list" >
+        <div class="studia-list__item"><a class="link">
+        <svg class="studia-list__icon" width="70" height="70" aria-label="diagram">
         <use href="./images/icons.svg#icon-diagram"></use>
         </svg></a>
     </div>
-        <h3 class="h3-title">Планирование</h3>
-            <p class="h3-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+        <h3 class="studia-list__title">Планирование</h3>
+            <p class="studia-list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
         </li>
-    <li class="box-list" >
-        <div class="box-about"><a class="link">
-        <svg class="box-icon" width="70" height="70" aria-label="astronaut">
+    <li class="studia-list" >
+        <div class="studia-list__item"><a class="link">
+        <svg class="studia-list__icon" width="70" height="70" aria-label="astronaut">
         <use href="./images/icons.svg#icon-astronaut"></use>
         </svg></a>
     </div>
-        <h3 class="h3-title">Современные технологии</h3>
-        <p class="h3-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+        <h3 class="studia-list__title">Современные технологии</h3>
+        <p class="studia-list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
         </li>
   </ul></div>
 </section>
@@ -180,12 +180,13 @@
 <section class="section-comand">
     <div class="container">
      <h2 class="h2-title">Наша команда</h2>
-  <ul class="comand-list">
-    <li class="comand-list-list"><a href="">
+  <ul class="comands">
+    <li class="comand-list"><a href="">
         <img src="./images/img(0.3).jpg" alt="фото" width="270" height="260"></a>
-        <div class="comand">
-        <h3 class="comand-title">Игорь Демьяненко</h3>
-        <p class="comand-text" lang="en">Product Designer</p>
+        <div class="comand-list__item">
+        <h3 class="comand-list__title">Игорь Демьяненко</h3>
+        <p class="comand-list__text" lang="en">Product Designer</p>
+      
         <ul class="social">
             <li class="social-link">
                 <a class="soclink" href="" aria-label="instagram">
@@ -218,11 +219,11 @@
         </ul>
     </div>
     </li>
-    <li class="comand-list-list"><a href="">
-        <img src="./images/img(0.4).jpg" alt="фото" width="270" height="260"></a>
-       <div class="comand">
-        <h3 class="comand-title">Ольга Репина</h3>
-        <p class="comand-text" lang="en">Frontend Developer</p>
+    <li class="comand-list"><a href=""><img src="./images/img(0.4).jpg" alt="фото" width="270" height="260"></a>
+       <div class="comand-list__item">
+        <h3 class="comand-list__title">Ольга Репина</h3>
+        <p class="comand-list__text" lang="en">Frontend Developer</p>
+        
         <ul class="social">
             <li class="social-link">
                 <a class="soclink" href="" aria-label="instagram">
@@ -256,11 +257,11 @@
         
     </div>
     </li>
-    <li class="comand-list-list"><a href="">
-        <img src="./images/img(0.5).jpg" alt="фото" width="270" height="260"></a>
-        <div class="comand">
-        <h3 class="comand-title"> Николай Тарасов</h3>
-        <p class="comand-text" lang="en">Marketing</p>
+    <li class="comand-list"><a href=""><img src="./images/img(0.5).jpg" alt="фото" width="270" height="260"></a>
+        <div class="comand-list__item">
+        <h3 class="comand-list__title"> Николай Тарасов</h3>
+        <p class="comand-list__text" lang="en">Marketing</p>
+       
         <ul class="social">
             <li class="social-link">
                 <a class="soclink" href="" aria-label="instagram">
@@ -293,11 +294,10 @@
         </ul>
     </div>
     </li>
-    <li class="comand-list-list"><a href="">
-        <img src="./images/img(0.6).jpg" alt="фото" width="270" height="260"></a>
-        <div class="comand">
-        <h3 class="comand-title">Михаил Ермаков</h3>
-        <p class="comand-text" lang="en">UI Designer</p>
+    <li class="comand-list"><a href=""><img src="./images/img(0.6).jpg" alt="фото" width="270" height="260"></a>
+        <div class="comand-list__item">
+        <h3 class="comand-list__title">Михаил Ермаков</h3>
+        <p class="comand-list__text" lang="en">UI Designer</p>
         <ul class="social">
             <li class="social-link">
                 <a class="soclink" href="" aria-label="instagram">
@@ -380,45 +380,46 @@
 </section>
 
 </main>
+
 <footer class="footer">
 <div class="container">
-    <div class="div-footer"> 
+    <div class="footer-items"> 
             <a class="logo" href="./index.html">Web<span class="logo-web">Studio</span></a>  
             <address>
         <ul class="list-footer" >
-            <li><a class="footer-map" href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a class="footer-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="footer-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="footer-items-list__map" href="https://goo.gl/maps/piqngm7oDQpEDh6u6" target="_blank" rel="noopener nofollow noreferrer">г. Киев, пр-т Леси Украинки, 26</a></li>
+            <li><a class="footer-items-list" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="footer-items-list" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
         </address>
     </div>
     <div class="footer-social">
         <strong class="slogan">Присоединяйтесь</strong>
         <ul class="social">
-            <li class="footer-social-link">
-                <a class="social-link" href="" aria-label="instagram">
-                <svg class="f-icon"  width="20" height="20">
+            <li class="footer-social-list">
+                <a class="footer-social-list__link" href="" aria-label="instagram">
+                <svg class="footer-social-list__icon"  width="20" height="20">
                 <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
                 </a>
             </li>
-            <li class="footer-social-link">
-                <a class="social-link" href="" aria-label="twitter">
-                <svg class="f-icon" width="20" height="20">
+            <li class="footer-social-list">
+                <a class="footer-social-list__link" href="" aria-label="twitter">
+                <svg class="footer-social-list__icon" width="20" height="20">
                 <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
                 </a>
             </li>
-            <li class="footer-social-link">
-                <a class="social-link" href="" aria-label="facebook">
-                <svg class="f-icon" width="20" height="20">
+            <li class="footer-social-list">
+                <a class="footer-social-list__link" href="" aria-label="facebook">
+                <svg class="footer-social-list__icon" width="20" height="20">
                 <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
                 </a>
             </li>
-            <li class="footer-social-link">
-                <a class="social-link" href="" aria-label="linkedin">
-                <svg class="f-icon" width="20" height="20">
+            <li class="footer-social-list">
+                <a class="footer-social-list__link" href="" aria-label="linkedin">
+                <svg class="footer-social-list__icon" width="20" height="20">
                 <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
                 </a>
@@ -427,8 +428,8 @@
     </div>
 
     <form class="footer-label">
-      <label class="label-title">Подпишитесь на рассылку </label>
-      <input class="email" type="email" name="email" placeholder="Е-mail">
+      <label class="footer-label__title">Подпишитесь на рассылку </label>
+      <input class="footer-label__email" type="email" name="email" placeholder="Е-mail">
 
    <button class="button-submit" type="submit">Подписаться <svg class="f-submit" width="24" height="24">
         <use href="./images/icons.svg#icon-icon-send"></use>
