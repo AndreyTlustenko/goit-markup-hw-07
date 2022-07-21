@@ -261,11 +261,14 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.head-group-list__head:hover,
+.head-group-list__head:focus,
 .head-nav-list__head:hover,
 .head-nav-list__head:focus {
   fill: currentColor;
 }
 
+.head-group-list__head:not(:last-child),
 .head-nav-list__head:not(:last-child) {
   margin-right: 50px;
   padding: 0;
@@ -321,7 +324,7 @@ a {
   display: inline-block;
 }
 
-.footer-items-list__map {
+.list-footer-items__listmap {
   display: block;
   padding-top: 20px;
   text-decoration: none;
@@ -331,7 +334,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-items-list {
+.list-footer-items__list {
   display: block;
   padding-top: 9px;
   color: var(--button-color);

@@ -29,13 +29,14 @@ border-bottom: 1px solid #ECECEC;
 }
 
 
-
+.head-group-list__head:hover,
+.head-group-list__head:focus,
 .head-nav-list__head:hover,
 .head-nav-list__head:focus {fill:currentColor;
 
     
 }
-
+.head-group-list__head:not(:last-child),
 .head-nav-list__head:not(:last-child) {margin-right: 50px; 
         padding: 0; display: flex;}
         
