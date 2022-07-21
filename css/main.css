@@ -324,7 +324,7 @@ a {
   display: inline-block;
 }
 
-.list-footer-items__listmap {
+.footer-items-nav__listmap {
   display: block;
   padding-top: 20px;
   text-decoration: none;
@@ -334,7 +334,7 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-footer-items__list {
+.footer-items-nav__list {
   display: block;
   padding-top: 9px;
   color: var(--button-color);
