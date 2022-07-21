@@ -261,15 +261,15 @@ a {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.head-group-list__head:hover,
-.head-group-list__head:focus,
-.head-nav-list__head:hover,
-.head-nav-list__head:focus {
+.head-group__list,
+.head-group__list:focus,
+.head-nav__list:hover,
+.head-nav__list:focus {
   fill: currentColor;
 }
 
-.head-group-list__head:not(:last-child),
-.head-nav-list__head:not(:last-child) {
+.head-group__list:not(:last-child),
+.head-nav__list:not(:last-child) {
   margin-right: 50px;
   padding: 0;
   display: -webkit-box;

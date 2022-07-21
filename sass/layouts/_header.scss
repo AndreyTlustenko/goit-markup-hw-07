@@ -29,15 +29,15 @@ border-bottom: 1px solid #ECECEC;
 }
 
 
-.head-group-list__head:hover,
-.head-group-list__head:focus,
-.head-nav-list__head:hover,
-.head-nav-list__head:focus {fill:currentColor;
+.head-group__list,
+.head-group__list:focus,
+.head-nav__list:hover,
+.head-nav__list:focus {fill:currentColor;
 
     
 }
-.head-group-list__head:not(:last-child),
-.head-nav-list__head:not(:last-child) {margin-right: 50px; 
+.head-group__list:not(:last-child),
+.head-nav__list:not(:last-child) {margin-right: 50px; 
         padding: 0; display: flex;}
         
 .list .heder-icon {margin-right: 10px;}
